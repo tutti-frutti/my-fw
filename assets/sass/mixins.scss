@@ -1,0 +1,29 @@
+@mixin b-black($font-size, $line-height) {
+font-family: 'BenderBlack';
+font-weight: normal;
+font-style: normal;
+font-size: $font-size;
+line-height: $line-height;
+}
+
+@mixin b-bold($font-size, $line-height) {
+font-family: 'BenderBold';
+font-weight: normal;
+font-style: normal;
+font-size: $font-size;
+line-height: $line-height;
+}
+
+@mixin calibri($font-size, $line-height) {
+font-family: 'Calibri';
+font-weight: normal;
+font-style: normal;
+font-size: $font-size;
+line-height: $line-height;
+}
+
+@mixin list-inl($margin) {
+    display: inline-block;
+    list-style: none;
+    margin: $margin;
+}

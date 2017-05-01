@@ -1,0 +1,57 @@
+.about {
+    &__wrapper {
+        display: table;
+        margin-bottom: 23px;
+        width: 100%;
+        @media #{$mobile} {
+            display: block;
+        }
+    }
+    &__block {
+        display: table-row;
+        @media #{$mobile} {
+            display: block;
+        }
+    }
+    &__left {
+        display: table-cell;
+        padding-right: 20px;
+        padding-left: 11px;
+        @media #{$mobile} {
+            display: block;
+        }
+    }
+    &__right {
+        display: table-cell;
+        padding: 7px 10px 15px 11px;
+        max-width: 713px;
+        vertical-align: top;
+        border: 1px solid $border;
+        background: url('../img/bg-corner-semi.png') right bottom no-repeat;
+        @media #{$mobile} {
+            display: block;
+        }
+        p {
+            @include calibri(14px, 18px);
+            color: #161b21;
+            &:first-of-type {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__foto {
+        width: 220px;
+        height: 165px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @media #{$mobile} {
+            margin: 0 auto 10px;
+        }
+    }
+    &__title {
+        @include b-black(18px, 18px);
+        margin-bottom: 15px;
+        color: $text;
+    }
+}

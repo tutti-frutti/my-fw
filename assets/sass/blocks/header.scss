@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/img/city.jpg) center/cover no-repeat;
+    &__top {
+        height: 20px;
+        .hamburger {
+            position: absolute;
+            right: 10px;
+            .hamburger-box {
+                width: 30px;
+            }
+            .hamburger-inner,
+            .hamburger-inner::after,
+            .hamburger-inner::before {
+                height: 2px;
+                width: 30px;
+                border-radius: 0;
+                color: #fff;
+                background-color: #fff;
+            }
+        }
+    }
+}
