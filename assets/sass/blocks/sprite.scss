@@ -1,0 +1,46 @@
+.social {
+    margin: 20px 0;
+    li {
+        display: inline-block;
+        a {
+            
+        }
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 43px;
+    height: 42px;
+    background-image: url(/assets/img/sprite/social.png);
+}
+.icon-bw-ic-1 {
+  background-position: 0px 0px;
+    &:hover {
+        background-position: 0px -260px;
+    }
+}
+.icon-bw-ic-2 {
+  background-position: 0px -52px;
+    &:hover {
+        background-position: 0px -312px;
+    }
+}
+.icon-bw-ic-3 {
+  background-position: 0px -104px;
+    &:hover {
+        background-position: 0px -364px;
+    }
+}
+.icon-bw-ic-4 {
+  background-position: 0px -156px;
+    &:hover {
+        background-position: 0px -416px;
+    }
+}
+.icon-bw-ic-5 {
+  background-position: 0px -208px;
+    &:hover {
+        background-position: 0px -468px;
+    }
+}

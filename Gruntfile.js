@@ -166,10 +166,10 @@ module.exports = function (grunt) {
         },
         sprite:{
       all: {
-        src: 'img/sprites/*.png',
-        dest: 'img/sprites/arrows.png',
-        destCss: 'css/sprites.css',
-        padding: 20,
+        src: 'assets/img/sprite/*.jpg',
+        dest: 'assets/img/sprite/social.png',
+        destCss: 'assets/css/sprites.css',
+        padding: 10,
         algorithm: 'top-down'
       }
     }

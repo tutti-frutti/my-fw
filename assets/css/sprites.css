@@ -1,0 +1,78 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-bw-ic-1 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px 0px;
+  width: 43px;
+  height: 42px;
+}
+.icon-bw-ic-2 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -52px;
+  width: 43px;
+  height: 42px;
+}
+.icon-bw-ic-3 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -104px;
+  width: 43px;
+  height: 42px;
+}
+.icon-bw-ic-4 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -156px;
+  width: 43px;
+  height: 42px;
+}
+.icon-bw-ic-5 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -208px;
+  width: 43px;
+  height: 42px;
+}
+.icon-c-ic-1 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -260px;
+  width: 43px;
+  height: 42px;
+}
+.icon-c-ic-2 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -312px;
+  width: 43px;
+  height: 42px;
+}
+.icon-c-ic-3 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -364px;
+  width: 43px;
+  height: 42px;
+}
+.icon-c-ic-4 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -416px;
+  width: 43px;
+  height: 42px;
+}
+.icon-c-ic-5 {
+  background-image: url(../img/sprite/social.png);
+  background-position: 0px -468px;
+  width: 43px;
+  height: 42px;
+}
