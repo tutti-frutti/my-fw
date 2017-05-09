@@ -71,3 +71,9 @@ img {
     font-size: 18px;
     text-overflow:ellipsis;
 }
+.words-first,
+.words-last {
+    span {
+        color: red;
+    }
+}

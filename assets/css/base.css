@@ -58,6 +58,32 @@
   background: url(/assets/img/block-img5.jpg) center/cover no-repeat;
   background-attachment: fixed; }
 
+.links {
+  margin: 0 auto;
+  max-width: 750px;
+  width: 100%; }
+
+.link-line {
+  position: relative;
+  padding-bottom: 10px;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: green; }
+  .link-line::before, .link-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 50%;
+    height: 2px;
+    background: green;
+    transition: all 1s ease; }
+  .link-line:hover::before, .link-line:hover::after {
+    width: 50%; }
+  .link-line:hover::before {
+    transform: translateX(-100%); }
+
 html {
   font-size: 16px; }
   @media (min-width: 768px) and (max-width: 1025px) {
@@ -125,3 +151,7 @@ img {
   color: #434343;
   font-size: 18px;
   text-overflow: ellipsis; }
+
+.words-first span,
+.words-last span {
+  color: red; }
