@@ -1,0 +1,24 @@
+.tabs {
+    margin-top: 20px;
+    li {
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid gray;
+        a {
+            display: block;
+            padding: 10px;
+            color: green;
+            &:hover {
+//                background: silver;
+            }
+        }
+    }
+    .tab-content {
+        margin-top: 5px;
+        border: 1px solid silver;
+    }
+}
+.active {
+    color: #000;
+    background: #045;
+}

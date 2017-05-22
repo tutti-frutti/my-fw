@@ -69,3 +69,21 @@
         background: url(/assets/img/check.png) center no-repeat;
     }
 }
+
+.test {
+    margin-top: 50px;
+    ul {
+        li {
+            display: inline-block;
+            vertical-align: top;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid silver;
+            a {
+                display: block;
+                line-height: 30px;
+            }
+        }
+    }
+}

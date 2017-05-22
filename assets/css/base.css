@@ -119,6 +119,19 @@
     line-height: 15px;
     background: url(/assets/img/check.png) center no-repeat; }
 
+.test {
+  margin-top: 50px; }
+  .test ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid silver; }
+    .test ul li a {
+      display: block;
+      line-height: 30px; }
+
 .social {
   margin: 20px 0; }
   .social li {
@@ -154,6 +167,80 @@
   background-position: 0px -208px; }
   .icon-bw-ic-5:hover {
     background-position: 0px -468px; }
+
+.video {
+  position: relative;
+  margin-top: 50px;
+  width: 550px;
+  height: 300px; }
+  .video img, .video video, .video iframe {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .video__play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: transparent; }
+
+.anchors nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; }
+  .anchors nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: gray; }
+    .anchors nav ul li a:hover {
+      color: green;
+      background: silver; }
+
+.anchors__block {
+  margin: 35px 0; }
+
+.anchors__text {
+  display: inline-block;
+  padding: 10px;
+  width: 33%;
+  vertical-align: top; }
+
+.tabs {
+  margin-top: 20px; }
+  .tabs li {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid gray; }
+    .tabs li a {
+      display: block;
+      padding: 10px;
+      color: green; }
+  .tabs .tab-content {
+    margin-top: 5px;
+    border: 1px solid silver; }
+
+.active {
+  color: #000;
+  background: #045; }
+
+nav .nav-list li {
+  display: inline-block;
+  vertical-align: top; }
+  nav .nav-list li a {
+    display: block;
+    padding: 15px;
+    color: gray; }
+    nav .nav-list li a:hover {
+      background: silver; }
+
+nav .nav-sub-list {
+  display: none;
+  position: absolute; }
+  nav .nav-sub-list li {
+    display: block; }
 
 html {
   font-size: 16px; }

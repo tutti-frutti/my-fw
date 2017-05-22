@@ -37,6 +37,7 @@ module.exports = function (grunt) {
                     'node_modules/slick-carousel/slick/slick-theme.css',
                     'node_modules/jquery.mmenu/dist/jquery.mmenu.all.css',
                     'node_modules/hamburgers/dist/hamburgers.css',
+//                    'node_modules/jquery-ui/themes/base/slider.css',
                 ]
                 }
             }
@@ -133,6 +134,7 @@ module.exports = function (grunt) {
                     'node_modules/fancybox/dist/js/jquery.fancybox.pack.js',
                     'node_modules/slick-carousel/slick/slick.js',
                     'node_modules/jquery.mmenu/dist/jquery.mmenu.all.min.js',
+//                    'node_modules/jquery-ui/ui/widgets/slider.js',
                 ],
                 // где будут находиться склеенные файлы
                 dest: 'assets/js/project.js'

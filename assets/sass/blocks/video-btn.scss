@@ -1,0 +1,21 @@
+.video {
+    position: relative;
+    margin-top: 50px;
+    width: 550px;
+    height: 300px;
+    img, video, iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    &__play {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+    }
+}
