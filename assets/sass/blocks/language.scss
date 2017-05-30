@@ -1,0 +1,23 @@
+nav {
+    .nav-list {
+        li {
+            display: inline-block;
+            vertical-align: top;
+            a {
+                display: block;
+                padding: 15px;
+                color: gray;
+                &:hover {
+                    background: silver;
+                }
+            }
+        }
+    }
+    .nav-sub-list {
+        display: none;
+        position: absolute;
+        li {
+            display: block;
+        }
+    }
+}

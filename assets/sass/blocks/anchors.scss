@@ -1,0 +1,29 @@
+.anchors {
+    nav {
+        ul {
+            li {
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    padding: 10px;
+                    color: gray;
+                    &:hover {
+                        color: green;
+                        background: silver;
+                    }
+                }
+            }
+        }
+    }
+    &__block {
+        margin: 35px 0;
+    }
+    &__text {
+        display: inline-block;
+        padding: 10px;
+        width: 33%;
+        vertical-align: top;
+    }
+}
