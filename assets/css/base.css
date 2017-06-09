@@ -362,6 +362,68 @@ nav .nav-sub-list {
       .acc ul li a.toggle:hover {
         background: rgba(0, 0, 0, 0.9); }
 
+.responsive-strings {
+  max-width: 700px;
+  width: 100%; }
+  .responsive-strings p {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #000; }
+  .responsive-strings .left {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    margin-bottom: -1px;
+    background: #fff; }
+  .responsive-strings .right {
+    float: right;
+    padding-bottom: 2px;
+    margin-bottom: -1px;
+    background: #fff; }
+
+@keyframes jumping {
+  0% {
+    bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  100% {
+    bottom: 50px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.1); } }
+
+@keyframes pulse {
+  0% { }
+  70% {
+    box-shadow: 0 0 0 50px rgba(255, 34, 60, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 34, 60, 0); } }
+
+.animations__green {
+  padding: 100px 0;
+  background: #00a47b; }
+
+.animations__blue {
+  padding: 100px 0;
+  background: #6c81c4; }
+
+.animations__ex {
+  text-align: center; }
+  .animations__ex .a-jump {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #aaa;
+    background: #323643;
+    animation: jumping 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both; }
+  .animations__ex .a-pulse {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: silver;
+    box-shadow: 0 0 0 0 rgba(255, 34, 60, 0.5);
+    animation: pulse 1.5s infinite; }
+
 html {
   font-size: 16px; }
   @media (min-width: 768px) and (max-width: 1025px) {

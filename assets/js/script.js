@@ -85,8 +85,6 @@ $(document).ready(function ($) {
     }
 });
     
-    $('#d-block')
-    
 });
 
     // range slider
