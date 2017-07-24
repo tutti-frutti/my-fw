@@ -85,6 +85,15 @@ $(document).ready(function ($) {
     }
 });
     
+    // canvas
+    var canvas = document.querySelector('canvas');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'red';
+    ctx.strokeStyle = 'green';
+    ctx.lineWidth = '1';
+    ctx.strokeRect(50, 0, 30, 100);
+    
+    
 });
 
     // range slider
